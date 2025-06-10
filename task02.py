@@ -1,0 +1,1 @@
+# Raqamdagi raqamlar yig'indisini hisoblang
