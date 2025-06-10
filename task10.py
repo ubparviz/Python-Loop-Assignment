@@ -8,15 +8,19 @@
 
 number = int(input("Son kiriting: "))
 
-for son in range(1, number+1):
-    if son % 5 == 0 and son % 3 == 0:
-        print("FizzBuzz")
+if number <= 1:
+    print("Iltimos 1 dan katta son kiriting")
 
-    elif son % 3 == 0:
-        print("Fizz")
+else:
+    for son in range(1, number+1):
+        if son % 5 == 0 and son % 3 == 0:
+            print("FizzBuzz")
 
-    elif son % 5 == 0:
-        print("Buzz")
+        elif son % 3 == 0:
+            print("Fizz")
+
+        elif son % 5 == 0:
+            print("Buzz")
     
-    else:
-        print(son)
+        else:
+            print(son)
